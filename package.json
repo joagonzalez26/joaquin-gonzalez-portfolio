@@ -1,8 +1,0 @@
-{
-  "name": "joaquin-gonzalez-portfolio",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "build": "mkdir -p public && printf '<!doctype html><html lang="es"><head><meta charset="utf-8"><title>Joaquín Gonzalez</title></head><body></body></html>' > public/index.html"
-  }
-}
