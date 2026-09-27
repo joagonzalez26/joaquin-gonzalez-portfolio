@@ -1,8 +1,13 @@
 {
+  "functions": {
+    "api/proxy.js": {
+      "maxDuration": 10
+    }
+  },
   "rewrites": [
     {
       "source": "/:path*",
-      "destination": "https://joaquin-gonzalez-portfolio.joagonzalez26.chatgpt.site/:path*"
+      "destination": "/api/proxy?path=:path*"
     }
   ]
 }
