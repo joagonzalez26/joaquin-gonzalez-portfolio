@@ -1,3 +1,10 @@
 {
-  "framework": "nextjs"
+  "buildCommand": "npm run build",
+  "outputDirectory": "public",
+  "rewrites": [
+    {
+      "source": "/:path*",
+      "destination": "https://joaquin-gonzalez-portfolio.joagonzalez26.chatgpt.site/:path*"
+    }
+  ]
 }
