@@ -1,13 +1,6 @@
 {
-  "functions": {
-    "api/proxy.js": {
-      "maxDuration": 10
-    }
-  },
-  "rewrites": [
-    {
-      "source": "/:path*",
-      "destination": "/api/proxy?path=:path*"
-    }
-  ]
+  "framework": "nextjs",
+  "buildCommand": "npm run build:vercel",
+  "devCommand": "npm run dev:vercel",
+  "installCommand": "npm ci"
 }
